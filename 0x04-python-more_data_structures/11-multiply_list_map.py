@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-def multiply_list_map(my_list=[], number=0):
-    return (list(map((lambda i: i * number), my_list)))
-
+def update_dictionary(a_dictionary, key, value):
+    if key in a_dictionary:
+        a_dictionary[key] = value
+    else:
+        a_dictionary[key] = value
+    return a_dictionary
